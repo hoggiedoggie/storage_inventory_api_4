@@ -12,8 +12,12 @@
 
 ### DevOps: Docker + Docker Compose.
 
-# ⚙️ Конфигурация среды (.env)Для корректной работы системы в 4-й лабе добавлены важные переменные управления:ПеременнаяОписаниеЗначение для тестаAPP_ENVРежим работы приложенияdevelopment / productionPROJECT_NAMEНазвание в заголовке SwaggerStorage Inventory APIJWT_ACCESS_SECRETСекретный ключ для подписи your_secret_key
-
+# ⚙️ Конфигурация среды (.env)
+| Переменная          | Описание                     | Значение для теста         |
+|---------------------|------------------------------|----------------------------|
+| APP_ENV             | Режим работы приложения      | development / production   |
+| PROJECT_NAME        | Название в заголовке Swagger | Storage Inventory API      |
+| JWT_ACCESS_SECRET   | Секретный ключ для подписи   | your_secret_key            |
 # 🚀 Запуск и проверка
 ## 1. Сборка и старт:
 ```
