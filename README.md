@@ -23,7 +23,7 @@
 # 🚀 Запуск и проверка
 ## 1. Сборка и старт:
 ```
-### docker-compose up -d --build
+ docker-compose up -d --build
 ```
 ## 2. Автоматическое создание таблиц:
 ### В данной версии таблицы (users, storage_devices) создаются автоматически при старте приложения благодаря Base.metadata.create_all в main.py.
@@ -48,7 +48,7 @@
 # 📊 Примеры данных (Storage Management)
 ### Пример регистрации типичного устройства из вашей коллекции:
 ```
-### JSON
+JSON
 {
   "model": "Western Digital Blue 4TB",
   "serial_number": "WD-WCC7K123456",
