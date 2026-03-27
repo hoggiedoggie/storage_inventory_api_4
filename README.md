@@ -14,14 +14,14 @@
 
 # ⚙️ Конфигурация среды (.env)
 ### | Переменная          | Описание                     | Значение для теста         |
-### |---------------------|------------------------------|----------------------------|
-### | APP_ENV             | Режим работы приложения      | development / production   |
-### | PROJECT_NAME        | Название в заголовке Swagger | Storage Inventory API      |
-### | JWT_ACCESS_SECRET   | Секретный ключ для подписи   | your_secret_key            |
+ |---------------------|------------------------------|----------------------------|
+ | APP_ENV             | Режим работы приложения      | development / production   |
+ | PROJECT_NAME        | Название в заголовке Swagger | Storage Inventory API      |
+ | JWT_ACCESS_SECRET   | Секретный ключ для подписи   | your_secret_key            |
 # 🚀 Запуск и проверка
 ## 1. Сборка и старт:
 ```
-docker-compose up -d --build
+### docker-compose up -d --build
 ```
 ## 2. Автоматическое создание таблиц:
 ### В данной версии таблицы (users, storage_devices) создаются автоматически при старте приложения благодаря Base.metadata.create_all в main.py.
